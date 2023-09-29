@@ -3,3 +3,7 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
+.countries-length {
+  font-size: 40px;
+  text-align: center;
+}

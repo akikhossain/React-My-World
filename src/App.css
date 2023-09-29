@@ -3,6 +3,10 @@
   margin: 0 auto;
   padding: 2rem;
 }
+.title {
+  text-align: center;
+  font-size: 50px;
+}
 
 @keyframes logo-spin {
   from {

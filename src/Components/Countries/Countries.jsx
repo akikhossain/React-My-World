@@ -11,7 +11,7 @@ const Countries = () => {
   }, []);
   return (
     <div>
-      <h2>Countries: {countries.length}</h2>
+      <h2 className="countries-length">Countries: {countries.length}</h2>
       <div className="countries-component">
         {countries.map((country) => (
           <Country key={country.cca3} country={country}></Country>

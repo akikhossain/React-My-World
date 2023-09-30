@@ -33,10 +33,13 @@ const Countries = () => {
         </ul>
       </div>
       <div className="country-flag">
-        {visitedFlags.map((country, i) => (
+        {/* {visitedFlags.map((country, i) => (
           <div key={i}>
             <img src={country.flags.png} alt="" />
           </div>
+        ))} */}
+        {visitedFlags.map((flag, idx) => (
+          <img key={idx} src={flag.flags.png}></img>
         ))}
       </div>
 
